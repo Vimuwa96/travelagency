@@ -135,8 +135,25 @@ nav {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 70px;
-  color: rgb(8, 8, 8);
+  color: rgba(255, 255, 255, 0);
   letter-spacing: 1px;
+  font-style: normal;
+  text-decoration: none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  transition: 0.5s ease-in-out;
+}
+
+.main-header-text h1 span:hover {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+
 }
 
 .main-header-text .sri-lanka {
