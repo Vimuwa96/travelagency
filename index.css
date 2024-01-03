@@ -142,3 +142,58 @@ nav {
 .main-header-text .sri-lanka {
   color: rgb(255, 255, 255);
 }
+
+
+.package-details{
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+
+.package-price{
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  transform: rotate(-90deg);
+}
+
+.package-price .price p{
+  background-color: rgb(40, 79, 44);
+  padding: 12px 12px;
+  color: white;
+}
+
+.package-details .name p{
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.package-details .price p{
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: green;
+  display: inline;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+}
+
+.package-card{
+  position: relative;
+}
+
+.package-image-wrapper {
+  overflow: hidden!important;
+
+}
+
+.package-image-wrapper img{
+  transition: transform 0.5s linear;
+ 
+}
+
+.package-card img:hover{
+  transform: scale(1.15);
+}
